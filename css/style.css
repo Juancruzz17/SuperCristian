@@ -1,0 +1,247 @@
+#encabezado {
+    background-color: rgba(8, 131, 57, 0.789);
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    width: auto;
+    height: auto;
+}
+
+.logos1 {
+    display: flex;
+    justify-content: center;
+}
+
+.logos1 img {
+    width: 100%;
+    height: auto;
+}
+
+.sectores {
+    background-color: rgba(8, 131, 57, 0.789);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+
+a {
+    color:rgba(0, 0, 0, 0.863);
+    text-decoration: none;
+    padding: 10px 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.menu ul  {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    width: 1000;
+    height: 52;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.15) ;
+}
+
+.titulo-sectores {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 5px solid #b4ddb4;
+}
+
+.cristian-img {
+    padding: 10px;
+    background: #b4ddb4;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.cristian-img .img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.produc {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.burguer {
+    padding: 0%;
+    background: #b4ddb4;
+    display: flex;
+    justify-content: center;
+}
+
+.burguer img {
+    width: 100%;
+    height: auto;
+}
+
+.localidad {
+    background: #52b152;
+    display: flex;
+    justify-content: start;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1%;
+    
+}
+
+.redes a {
+    
+    color: black;
+    background: #b4ddb4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.15) ;
+}
+
+.info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.contenido {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.lista {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.maps a {
+    color: black;
+    background: #b4ddb4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mercaderia-super {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+display: flex;
+justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.mercaderias {
+    padding: 10px;
+    background: #b4ddb4;
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.mercaderias .mercaderias-sc img {
+    width: 100%;
+    height: auto;
+}
+
+.promocion {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+display: flex;
+justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.bancos {
+    display: flex;
+    justify-content: center;
+}
+
+.bancos img {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.info-contac {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+display: flex;
+justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.direccion-super {
+    padding: 10px;
+    background: #52b152;
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.google-maps {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #52b152;
+display: flex;
+justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
