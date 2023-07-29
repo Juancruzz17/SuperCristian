@@ -1,0 +1,25 @@
+main{
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #fff;
+display: flex;
+justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+    }
+    div{
+        padding: 10px;
+    background: #fff;
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    }
+    div{
+        img{
+            width: 90%;
+    height: auto;
+        }
+        }
+    }

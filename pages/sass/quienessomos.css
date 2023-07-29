@@ -1,0 +1,9 @@
+section {
+  display: flex;
+  justify-content: left;
+  background-color: whitesmoke;
+}
+section div img {
+  width: 20%;
+  height: auto;
+}/*# sourceMappingURL=quienessomos.css.map */
