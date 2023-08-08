@@ -15,7 +15,95 @@ main div {
   flex-flow: row wrap;
   justify-content: space-around;
 }
-main div img {
-  width: 90%;
-  height: auto;
-}/*# sourceMappingURL=productos.css.map */
+main .mercaderias {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main .mercaderias figure {
+  position: relative;
+  height: 250px;
+  width: 350%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+main .mercaderias figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+main .mercaderias figure .texto {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(201, 238, 251, 0.819);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+main .mercaderias figure .texto h3 {
+  color: black;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+main .mercaderias figure .texto p {
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+main .mercaderias figure:hover > .texto {
+  opacity: 1;
+  visibility: visible;
+}
+main .mercaderias figure:hover > .texto h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+main .mercaderias figure:hover > img {
+  transform: scale(1.15);
+}
+
+/*div{
+        figure{
+            position: relative;
+            height: auto;
+            width: auto;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+            cursor: pointer;
+
+            img{
+                width: 100%;
+                height: 100%;
+                transition: all 500ms ease-out;
+            }
+            div{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgb(123, 193, 169);
+                transition: all 500ms ease-out;
+                opacity: 0;
+                visibility: hidden;
+                text-align: center;
+            }
+            figure:hover > div{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}*//*# sourceMappingURL=productos.css.map */

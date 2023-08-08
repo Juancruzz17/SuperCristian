@@ -1,9 +1,28 @@
-section {
+main h2 {
   display: flex;
-  justify-content: left;
-  background-color: whitesmoke;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-section div img {
-  width: 20%;
-  height: auto;
+main div {
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  gap: 5px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+main p {
+  background-color: rgb(38, 89, 56);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  width: 85%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: rgb(69, 86, 40);
+  color: white;
+}
+main p a {
+  color: white;
+  justify-content: end;
 }/*# sourceMappingURL=quienessomos.css.map */
