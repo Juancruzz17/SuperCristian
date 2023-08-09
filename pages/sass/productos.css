@@ -81,6 +81,11 @@ main .mercaderias figure:hover > img {
   transform: scale(1.15);
 }
 
+article {
+  display: flex;
+  justify-content: center;
+}
+
 /*div{
         figure{
             position: relative;
