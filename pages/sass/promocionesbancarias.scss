@@ -1,7 +1,17 @@
+section {
+    div {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 10%;
+        height: auto;
+      }
+}
+
+  }
 main{
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background: white;
 display: flex;
 justify-content: center;
     width: auto;

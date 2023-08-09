@@ -1,4 +1,12 @@
-/* #encabezado {
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Img/Fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* 
+#encabezado {
     background-color: rgba(8, 131, 57, 0.789);
 }
 
@@ -336,3 +344,4 @@ justify-content: center;
 }
     }*/
     
+

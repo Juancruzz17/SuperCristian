@@ -1,5 +1,15 @@
-main{
+section {
+  div {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 10%;
+      height: auto;
+    }
+}
 
+}
+main{
 h2{
     display: flex;
     justify-content: center; 
