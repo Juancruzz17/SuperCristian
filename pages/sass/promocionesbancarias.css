@@ -1,4 +1,4 @@
-h2 {
+main h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background: white;
   display: flex;
@@ -6,4 +6,8 @@ h2 {
   width: auto;
   height: auto;
   margin: auto;
+}
+main img {
+  max-width: 100%;
+  width: 975%;
 }/*# sourceMappingURL=promocionesbancarias.css.map */
